@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Undangan Pernikahan PARDEDE & SINAGA - 12 Desember 2026">
+    <title>The Wedding of PARDEDE & SINAGA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- OPENING SCREEN -->
+    <div id="openingScreen" class="opening-screen">
+        <div class="opening-ornament top"></div>
+        <div class="opening-content">
+            <p class="opening-subtitle">The Wedding of</p>
+            <h1 class="opening-names">PARDEDE <span>&</span> SINAGA</h1>
+            <p class="opening-date">12 Desember 2026</p>
+
+            <div class="ulos-frame-wrapper ulos-circle">
+                <div class="ulos-frame-inner">
+                    <img src="images/couple.jpg" alt="Foto Pasangan PARDEDE & SINAGA" class="opening-photo">
+                </div>
+            </div>
+
+            <button id="openInvitationBtn" class="btn btn-open">BUKA UNDANGAN</button>
+        </div>
+        <div class="opening-ornament bottom"></div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="mainContent" class="main-content hidden">
+
+        <!-- NAVBAR (DESKTOP) -->
+        <nav id="navbar" class="navbar">
+            <div class="nav-brand">
+                <span class="nav-brand-text">P & S</span>
+            </div>
+            <ul id="navMenu" class="nav-menu">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#mempelai" class="nav-link">Mempelai</a></li>
+                <li><a href="#acara" class="nav-link">Acara</a></li>
+                <li><a href="#galeri" class="nav-link">Galeri</a></li>
+                <li><a href="#rsvp" class="nav-link">RSVP</a></li>
+                <li><a href="#gift" class="nav-link">Gift</a></li>
+            </ul>
+        </nav>
+
+        <!-- HERO -->
+        <section id="hero" class="hero">
+            <div class="gorga-border top"></div>
+            <div class="hero-content">
+                <p class="hero-subtitle">The Wedding Celebration</p>
+                <h1 class="hero-names">PARDEDE</h1>
+                <span class="hero-ampersand">&</span>
+                <h1 class="hero-names">SINAGA</h1>
+                <p class="hero-date">12 . 12 . 2026</p>
+
+                <div class="ulos-frame-wrapper ulos-hero">
+                    <div class="ulos-frame-inner">
+                        <img src="images/couple.jpg" alt="Foto Pasangan" class="hero-photo">
+                    </div>
+                </div>
+
+                <p class="hero-invitation">
+                    "Atas kasih dan penyertaan Tuhan, kami mengundang Bapak/Ibu/Saudara/i untuk hadir dan menjadi bagian dari hari bahagia kami."
+                </p>
+            </div>
+            <div class="gorga-border bottom"></div>
+        </section>
+
+        <!-- COUNTDOWN -->
+        <section id="countdown" class="countdown-section">
+            <div class="container">
+                <h2 class="section-title">Menuju Hari Bahagia</h2>
+                <div class="gorga-divider"></div>
+                <div class="countdown-grid">
+                    <div class="countdown-item">
+                        <span id="days" class="countdown-number">00</span>
+                        <span class="countdown-label">Hari</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="hours" class="countdown-number">00</span>
+                        <span class="countdown-label">Jam</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="minutes" class="countdown-number">00</span>
+                        <span class="countdown-label">Menit</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="seconds" class="countdown-number">00</span>
+                        <span class="countdown-label">Detik</span>
+                    </div>
+                </div>
+                <p id="countdownFinished" class="countdown-finished hidden">Hari Bahagia Telah Tiba ❤️</p>
+            </div>
+        </section>
+
+        <!-- MEMPELAI -->
+        <section id="mempelai" class="mempelai-section">
+            <div class="container">
+                <h2 class="section-title">The Bride & Groom</h2>
+                <div class="gorga-divider"></div>
+                <div class="mempelai-grid">
+
+                    <article class="mempelai-card">
+                        <div class="ulos-frame-wrapper ulos-circle ulos-small">
+                            <div class="ulos-frame-inner">
+                                <img src="images/groom.jpg" alt="Mempelai Pria" class="mempelai-photo">
+                            </div>
+                        </div>
+                        <h3 class="mempelai-name">[Nama Lengkap Mempelai Pria]</h3>
+                        <p class="mempelai-marga">Marga: [Marga]</p>
+                        <p class="mempelai-parents">Putra dari:<br>Bapak [Nama Ayah] & Ibu [Nama Ibu]</p>
+                    </article>
+
+                    <article class="mempelai-card">
+                        <div class="ulos-frame-wrapper ulos-circle ulos-small">
+                            <div class="ulos-frame-inner">
+                                <img src="images/bride.jpg" alt="Mempelai Wanita" class="mempelai-photo">
+                            </div>
+                        </div>
+                        <h3 class="mempelai-name">[Nama Lengkap Mempelai Wanita]</h3>
+                        <p class="mempelai-marga">Marga: [Marga]</p>
+                        <p class="mempelai-parents">Putri dari:<br>Bapak [Nama Ayah] & Ibu [Nama Ibu]</p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================= -->
+        <!-- LOVE STORY - ZIGZAG + FOTO               -->
+        <!-- ========================================= -->
+        <!-- 
+            EDIT FOTO LOVE STORY DI SINI
+            Ganti src="images/lovestory/xxx.jpg" sesuai file Anda
+            Letakkan di folder: images/lovestory/
+        -->
+        <section id="lovestory" class="lovestory-section">
+            <div class="container">
+                <h2 class="section-title">Our Love Story</h2>
+                <div class="gorga-divider"></div>
+
+                <div class="love-story-timeline">
+
+                    <!-- 2022 - Foto di KIRI, teks di KANAN -->
+                    <article class="love-story-item left">
+                        <div class="love-story-photo">
+                            <div class="ulos-frame-wrapper ulos-lovestory">
+                                <div class="ulos-frame-inner">
+                                    <img src="images/lovestory/2022.jpg" alt="Pertama Bertemu" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="love-story-marker">
+                            <span class="marker-dot"></span>
+                        </div>
+                        <div class="love-story-text">
+                            <span class="love-story-year">2022</span>
+                            <h3>Pertama Bertemu</h3>
+                            <p>"Pertemuan pertama yang menjadi awal dari perjalanan kami."</p>
+                        </div>
+                    </article>
+
+                    <!-- 2023 - Foto di KANAN, teks di KIRI -->
+                    <article class="love-story-item right">
+                        <div class="love-story-photo">
+                            <div class="ulos-frame-wrapper ulos-lovestory">
+                                <div class="ulos-frame-inner">
+                                    <img src="images/lovestory/2023.jpg" alt="Mulai Bersama" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="love-story-marker">
+                            <span class="marker-dot"></span>
+                        </div>
+                        <div class="love-story-text">
+                            <span class="love-story-year">2023</span>
+                            <h3>Mulai Bersama</h3>
+                            <p>"Kami mulai mengenal satu sama lain lebih dekat."</p>
+                        </div>
+                    </article>
+
+                    <!-- 2025 - Foto di KIRI, teks di KANAN -->
+                    <article class="love-story-item left">
+                        <div class="love-story-photo">
+                            <div class="ulos-frame-wrapper ulos-lovestory">
+                                <div class="ulos-frame-inner">
+                                    <img src="images/lovestory/2025.jpg" alt="Lamaran" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="love-story-marker">
+                            <span class="marker-dot"></span>
+                        </div>
+                        <div class="love-story-text">
+                            <span class="love-story-year">2025</span>
+                            <h3>Lamaran</h3>
+                            <p>"Komitmen untuk melangkah bersama menuju kehidupan baru."</p>
+                        </div>
+                    </article>
+
+                    <!-- 2026 - Foto di KANAN, teks di KIRI -->
+                    <article class="love-story-item right">
+                        <div class="love-story-photo">
+                            <div class="ulos-frame-wrapper ulos-lovestory">
+                                <div class="ulos-frame-inner">
+                                    <img src="images/lovestory/2026.jpg" alt="Pernikahan" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="love-story-marker">
+                            <span class="marker-dot"></span>
+                        </div>
+                        <div class="love-story-text">
+                            <span class="love-story-year">2026</span>
+                            <h3>Pernikahan</h3>
+                            <p>"Memulai perjalanan baru sebagai satu keluarga."</p>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- DETAIL ACARA -->
+        <section id="acara" class="acara-section">
+            <div class="container">
+                <h2 class="section-title">Wedding Event</h2>
+                <div class="gorga-divider"></div>
+                <div class="acara-grid">
+                    <article class="acara-card">
+                        <h3 class="acara-title">Pemberkatan Pernikahan</h3>
+                        <p class="acara-detail">📅 Minggu, 12 Desember 2026</p>
+                        <p class="acara-detail">⏰ 10.00 WIB</p>
+                        <p class="acara-detail">📍 Gereja [Nama Gereja]</p>
+                        <p class="acara-address">[Alamat]</p>
+                        <a href="https://maps.google.com/?q=Gereja+Nama+Gereja" target="_blank" rel="noopener" class="btn btn-location">LIHAT LOKASI</a>
+                    </article>
+                    <article class="acara-card">
+                        <h3 class="acara-title">Pesta Adat Batak</h3>
+                        <p class="acara-detail">📅 Minggu, 12 Desember 2026</p>
+                        <p class="acara-detail">⏰ 13.00 WIB</p>
+                        <p class="acara-detail">📍 [Nama Gedung]</p>
+                        <p class="acara-address">[Alamat]</p>
+                        <a href="https://maps.google.com/?q=Nama+Gedung" target="_blank" rel="noopener" class="btn btn-location">LIHAT LOKASI</a>
+                    </article>
+                    <article class="acara-card">
+                        <h3 class="acara-title">Resepsi</h3>
+                        <p class="acara-detail">📅 Minggu, 12 Desember 2026</p>
+                        <p class="acara-detail">⏰ 18.00 WIB</p>
+                        <p class="acara-detail">📍 [Nama Gedung]</p>
+                        <p class="acara-address">[Alamat]</p>
+                        <a href="https://maps.google.com/?q=Nama+Gedung" target="_blank" rel="noopener" class="btn btn-location">LIHAT LOKASI</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- BUDAYA BATAK -->
+        <section id="budaya" class="budaya-section">
+            <div class="container">
+                <h2 class="section-title">Our Batak Tradition</h2>
+                <div class="gorga-divider"></div>
+                <div class="budaya-grid">
+                    <article class="budaya-card">
+                        <h3>Mangulosi</h3>
+                        <p>"Ulos merupakan salah satu bagian penting dalam budaya Batak yang memiliki makna kasih sayang, doa, berkat, dan pengharapan."</p>
+                    </article>
+                    <article class="budaya-card">
+                        <h3>Tortor</h3>
+                        <p>"Tor-tor merupakan tarian tradisional Batak yang menjadi bagian dari berbagai kegiatan adat dan perayaan."</p>
+                    </article>
+                    <article class="budaya-card">
+                        <h3>Dalihan Na Tolu</h3>
+                        <p>"Dalihan Na Tolu merupakan prinsip hubungan sosial dalam masyarakat Batak yang menekankan nilai kekerabatan, saling menghormati, dan keseimbangan hubungan."</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- GALERI -->
+        <section id="galeri" class="galeri-section">
+            <div class="container">
+                <h2 class="section-title">Our Moments</h2>
+                <div class="gorga-divider"></div>
+                <div class="galeri-grid">
+                    <img src="images/gallery/1.jpg" alt="Momen 1" class="galeri-item" loading="lazy">
+                    <img src="images/gallery/2.jpg" alt="Momen 2" class="galeri-item" loading="lazy">
+                    <img src="images/gallery/3.jpg" alt="Momen 3" class="galeri-item" loading="lazy">
+                    <img src="images/gallery/4.jpg" alt="Momen 4" class="galeri-item" loading="lazy">
+                    <img src="images/gallery/5.jpg" alt="Momen 5" class="galeri-item" loading="lazy">
+                    <img src="images/gallery/6.jpg" alt="Momen 6" class="galeri-item" loading="lazy">
+                    <img src="images/gallery/7.jpg" alt="Momen 7" class="galeri-item" loading="lazy">
+                    <img src="images/gallery/8.jpg" alt="Momen 8" class="galeri-item" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- RSVP -->
+        <section id="rsvp" class="rsvp-section">
+            <div class="container">
+                <h2 class="section-title">RSVP</h2>
+                <div class="gorga-divider"></div>
+                <form id="rsvpForm" class="rsvp-form">
+                    <div class="form-group">
+                        <label for="rsvpName">Nama:</label>
+                        <input type="text" id="rsvpName" name="name" placeholder="Masukkan nama" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Kehadiran:</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="attendance" value="Hadir" required> Hadir
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="attendance" value="Tidak Hadir" required> Tidak Hadir
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="rsvpGuests">Jumlah tamu:</label>
+                        <input type="number" id="rsvpGuests" name="guests" min="1" max="10" value="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="rsvpMessage">Ucapan:</label>
+                        <textarea id="rsvpMessage" name="message" rows="4" placeholder="Tulis ucapan dan doa..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-submit">KIRIM UCAPAN</button>
+                </form>
+                <div id="rsvpNotification" class="rsvp-notification hidden">
+                    Terima kasih atas konfirmasi dan doa yang diberikan ❤️
+                </div>
+            </div>
+        </section>
+
+        <!-- WEDDING GIFT -->
+        <section id="gift" class="gift-section">
+            <div class="container">
+                <h2 class="section-title">Wedding Gift</h2>
+                <div class="gorga-divider"></div>
+                <div class="gift-grid">
+                    <article class="gift-card">
+                        <h3>Bank Transfer</h3>
+                        <p class="gift-bank">BCA</p>
+                        <p class="gift-account">1234567890</p>
+                        <p class="gift-name">a.n. [Nama]</p>
+                        <button class="btn btn-copy" data-copy="1234567890">SALIN NOMOR REKENING</button>
+                    </article>
+                    <article class="gift-card">
+                        <h3>QRIS</h3>
+                        <img src="images/qris.png" alt="QRIS Code" class="gift-qris" loading="lazy">
+                        <p class="gift-qris-note">Scan untuk memberikan hadiah</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- UCAPAN TAMU -->
+        <section id="ucapan" class="ucapan-section">
+            <div class="container">
+                <h2 class="section-title">Doa & Ucapan</h2>
+                <div class="gorga-divider"></div>
+                <div id="ucapanList" class="ucapan-grid">
+                    <article class="ucapan-card">
+                        <p class="ucapan-text">"Selamat menempuh hidup baru. Semoga menjadi keluarga yang penuh kasih dan kebahagiaan."</p>
+                        <p class="ucapan-author">— Tamu Undangan</p>
+                    </article>
+                    <article class="ucapan-card">
+                        <p class="ucapan-text">"Horass! Semoga menjadi keluarga yang harmonis dan selalu diberkati."</p>
+                        <p class="ucapan-author">— Keluarga Besar</p>
+                    </article>
+                </div>
+                <p id="ucapanEmpty" class="ucapan-empty hidden">Belum ada ucapan. Jadilah yang pertama!</p>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="gorga-border top"></div>
+            <div class="footer-content">
+                <h3 class="footer-names">PARDEDE & SINAGA</h3>
+                <p class="footer-date">12.12.2026</p>
+                <p class="footer-horas">Horas!</p>
+                <p class="footer-message">"Terima kasih atas doa dan kehadiran yang diberikan untuk hari bahagia kami."</p>
+            </div>
+            <div class="gorga-border bottom"></div>
+        </footer>
+
+    </div><!-- end mainContent -->
+
+    <!-- LIGHTBOX -->
+    <div id="lightbox" class="lightbox hidden">
+        <button id="lightboxClose" class="lightbox-close" aria-label="Close">&times;</button>
+        <button id="lightboxPrev" class="lightbox-nav lightbox-prev" aria-label="Previous">&#10094;</button>
+        <img id="lightboxImage" src="" alt="Foto Galeri" class="lightbox-image">
+        <button id="lightboxNext" class="lightbox-nav lightbox-next" aria-label="Next">&#10095;</button>
+    </div>
+
+    <!-- BACKGROUND MUSIC -->
+    <audio id="backgroundMusic" loop>
+        <source src="music/wedding.mp3" type="audio/mpeg">
+    </audio>
+    <div id="musicControl" class="music-control hidden">
+        <button id="musicToggle" class="music-btn" aria-label="Play/Pause">▶</button>
+        <button id="musicMute" class="music-btn" aria-label="Mute">🔇</button>
+    </div>
+
+    <!-- TOAST -->
+    <div id="toast" class="toast hidden"></div>
+
+    <!-- BOTTOM NAVIGATION (MOBILE & TABLET) -->
+    <nav id="bottomNav" class="bottom-nav hidden">
+        <a href="#hero" class="bottom-nav-link active" data-section="hero">
+            <span class="bottom-nav-icon">🏠</span>
+            <span class="bottom-nav-label">Home</span>
+        </a>
+        <a href="#mempelai" class="bottom-nav-link" data-section="mempelai">
+            <span class="bottom-nav-icon">💑</span>
+            <span class="bottom-nav-label">Mempelai</span>
+        </a>
+        <a href="#acara" class="bottom-nav-link" data-section="acara">
+            <span class="bottom-nav-icon">📅</span>
+            <span class="bottom-nav-label">Acara</span>
+        </a>
+        <a href="#galeri" class="bottom-nav-link" data-section="galeri">
+            <span class="bottom-nav-icon">🖼️</span>
+            <span class="bottom-nav-label">Galeri</span>
+        </a>
+        <a href="#rsvp" class="bottom-nav-link" data-section="rsvp">
+            <span class="bottom-nav-icon">💌</span>
+            <span class="bottom-nav-label">RSVP</span>
+        </a>
+        <a href="#gift" class="bottom-nav-link" data-section="gift">
+            <span class="bottom-nav-icon">🎁</span>
+            <span class="bottom-nav-label">Gift</span>
+        </a>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>
