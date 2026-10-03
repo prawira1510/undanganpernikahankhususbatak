@@ -3,18 +3,18 @@
 /* ============================================= */
 const CONFIG = {
     weddingDate: '2026-12-12T10:00:00',
-    galleryImages: [
-        'images/gallery/1.jpg',
-        'images/gallery/2.jpg',
-        'images/gallery/3.jpg',
-        'images/gallery/4.jpg',
-        'images/gallery/5.jpg',
-        'images/gallery/6.jpg',
-        'images/gallery/7.jpg',
-        'images/gallery/8.jpg'
-    ],
+    galleryImages: [], // diisi otomatis dari HTML (lihat di bawah)
     googleScriptUrl: ''
 };
+
+/* ============================================= */
+/* AUTO-POPULATE GALERI DARI HTML                */
+/* ============================================= */
+/* Ambil src dari setiap .galeri-item di HTML,
+   jadi cukup ganti src di HTML saja */
+document.querySelectorAll('.galeri-item').forEach(img => {
+    CONFIG.galleryImages.push(img.getAttribute('src'));
+});
 
 /* ============================================= */
 /* DOM REFS                                      */
